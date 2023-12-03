@@ -15,4 +15,6 @@ CMakeFiles/
 qmltypes/
 meta_types/
 cmake_build/
+CMakeCache.txt
+CMakeCache.txt.user
 .DS_STORE
