@@ -1,3 +1,16 @@
 .vscode
 build/
+cmake-build/
+resources/
+CMakeFiles/
+meta_types/
+cluster_autogen/
+.rcc/
+.qt/
+.generated/
+.qt_plugins/
+cluster/
+notes/
+CMakeFiles/
+qmltypes/
 .DS_STORE

@@ -1,5 +1,0 @@
-/Users/denistopor/repos/qt-instrument-cluster/CMakeFiles/cluster.dir
-/Users/denistopor/repos/qt-instrument-cluster/CMakeFiles/cluster_qmlimportscan.dir
-/Users/denistopor/repos/qt-instrument-cluster/CMakeFiles/edit_cache.dir
-/Users/denistopor/repos/qt-instrument-cluster/CMakeFiles/rebuild_cache.dir
-/Users/denistopor/repos/qt-instrument-cluster/CMakeFiles/cluster_autogen.dir
