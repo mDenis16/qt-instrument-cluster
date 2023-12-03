@@ -1,0 +1,37 @@
+{
+    "classes": [
+        {
+            "className": "ResourceManager",
+            "methods": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "path",
+                            "type": "QString"
+                        }
+                    ],
+                    "name": "Get",
+                    "returnType": "QString"
+                }
+            ],
+            "object": true,
+            "qualifiedClassName": "ResourceManager",
+            "signals": [
+                {
+                    "access": "public",
+                    "name": "resourcePathChanged",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "ResourceManager.h",
+    "outputRevision": 68
+}

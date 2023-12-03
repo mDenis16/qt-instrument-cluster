@@ -1,0 +1,17 @@
+{
+    "classes": [
+        {
+            "className": "OBD2_PID_STATE",
+            "object": true,
+            "qualifiedClassName": "OBD2_PID_STATE",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "OBD2_PID_STATE.h",
+    "outputRevision": 68
+}

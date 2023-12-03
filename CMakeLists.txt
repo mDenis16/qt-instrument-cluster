@@ -5,22 +5,21 @@ project(instrumentcluster VERSION 1.0 LANGUAGES CXX)
 set(CMAKE_AUTOMOC ON)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
-if (APPLE) 
-	set(Qt6_DIR "/Users/samper2/Qt/6.4.0/macos/lib/cmake/Qt6/")
-endif()
+
 
 include_directories( .
 )
 
-find_package(Qt6 6.4 COMPONENTS Quick Gui Core5Compat Positioning REQUIRED)
-qt_standard_project_setup()
+find_package(Qt6 6.4 COMPONENTS SerialBus Quick Gui Core5Compat Positioning REQUIRED)
+
 
 qt_add_executable(cluster
-		main.cpp
-		Vehicle.h
-		Vehicle.cpp
+		src/main.cpp
+		src/ResourceManager.cpp
+		src/Vehicle.cpp
+		src/OBD2_PID_STATE.cpp
 	)
-
+if(CMAKE_BUILD_TYPE STREQUAL "Release")
 qt_add_qml_module(cluster
 	URI resources 
 	VERSION 1.0
@@ -54,5 +53,6 @@ qt_add_qml_module(cluster
 		fonts/LexendDeca-Light.ttf
 		fonts/LexendDeca-Regular.ttf
 	)
+endif()
 
-target_link_libraries(cluster PUBLIC Qt6::Gui Qt6::Quick Qt6::Core5Compat Qt6::Positioning)
+target_link_libraries(cluster PUBLIC Qt6::Gui Qt6::Quick Qt6::Core5Compat Qt6::Positioning Qt6::SerialBus)
