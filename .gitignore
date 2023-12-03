@@ -1,7 +1,6 @@
 .vscode
 build/
 cmake-build/
-resources/
 CMakeFiles/
 meta_types/
 cluster_autogen/
