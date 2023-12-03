@@ -13,4 +13,6 @@ cluster/
 notes/
 CMakeFiles/
 qmltypes/
+meta_types/
+cmake_build/
 .DS_STORE
