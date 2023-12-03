@@ -12,6 +12,7 @@ include_directories( .
 
 find_package(Qt6 6.4 COMPONENTS SerialBus Quick Gui Core5Compat Positioning REQUIRED)
 
+set(EXECUTABLE_OUTPUT_PATH "bin")
 
 qt_add_executable(cluster
 		src/main.cpp
