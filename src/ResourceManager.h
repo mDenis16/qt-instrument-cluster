@@ -4,6 +4,8 @@
 
 #include <QObject>
 #include <QDir>
+
+
 class ResourceManager : public QObject
 {
     Q_OBJECT

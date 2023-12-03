@@ -3,14 +3,14 @@
 
 
 
-
+#define STRING(x) #x
+#define XSTRING(x) STRING(x)
 
 
 ResourceManager::ResourceManager(QObject *parent)
     : QObject(parent)
 {
-    m_Dir =  QDir("./resource_manager/");
-    m_resourcePath = "file:///path/to/local/resources";
+    m_Dir =  QDir(QString(XSTRING(SOURCE_ROOT)) + "/resources");
 }
 
 QString ResourceManager::Get(QString path) 

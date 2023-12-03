@@ -4,5 +4,5 @@
 OBD2_PID_STATE::OBD2_PID_STATE(QObject *parent)
     : QObject(parent)
 {
-
+    
 }

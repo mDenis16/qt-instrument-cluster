@@ -7,12 +7,11 @@ set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 
-include_directories( .
-)
-
 find_package(Qt6 6.4 COMPONENTS SerialBus Quick Gui Core5Compat Positioning REQUIRED)
 
 set(EXECUTABLE_OUTPUT_PATH "bin")
+
+add_compile_definitions("SOURCE_ROOT=${CMAKE_SOURCE_DIR}")
 
 qt_add_executable(cluster
 		src/main.cpp
