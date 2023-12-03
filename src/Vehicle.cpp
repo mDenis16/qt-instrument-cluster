@@ -6,10 +6,7 @@ Vehicle::Vehicle(QObject *parent)
 {
   CreateCanDevice();
 
- /* BIND_PID({0x13, 0x31}, Vehicle::Speed, 10, [](buffer) => {
-      //
-
-  })*/
+ // WATCH_OBD_PID(uint8_t pid, int rate, [this]())
   
 }
 void Vehicle::CreateCanDevice(){
@@ -51,3 +48,6 @@ void Vehicle::setRpm(const int &rpm)
 
   qDebug() << rpm;
 }
+ void Vehicle::WATCH_OBD_PID(uint8_t pid, int rate, std::function<void(QCanBusFrame frame)> callback){
+    qDebug() << "Watching PID " << pid << " with rate of " << rate;
+ }

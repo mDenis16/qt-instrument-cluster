@@ -1016,6 +1016,7 @@ CMakeFiles/cluster.dir/src/main.cpp.o: \
   /opt/homebrew/lib/QtSerialBus.framework/Headers/qtserialbusversion.h \
   /opt/homebrew/lib/QtSerialBus.framework/Headers/QCanBus \
   /opt/homebrew/lib/QtSerialBus.framework/Headers/QCanBusDevice \
+  /opt/homebrew/lib/QtSerialBus.framework/Headers/QCanBusFrame \
   /opt/homebrew/lib/QtCore.framework/Headers/QList \
   /opt/homebrew/lib/QtQml.framework/Headers/qqml.h \
   /Users/denistopor/repos/qt-instrument-cluster/src/OBD2_PID_STATE.h

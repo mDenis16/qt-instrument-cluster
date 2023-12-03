@@ -712,6 +712,7 @@
   /opt/homebrew/Cellar/qt/6.6.0/lib/QtQml.framework/Versions/A/Headers/qtqmlglobal.h \
   /opt/homebrew/Cellar/qt/6.6.0/lib/QtSerialBus.framework/Versions/A/Headers/QCanBus \
   /opt/homebrew/Cellar/qt/6.6.0/lib/QtSerialBus.framework/Versions/A/Headers/QCanBusDevice \
+  /opt/homebrew/Cellar/qt/6.6.0/lib/QtSerialBus.framework/Versions/A/Headers/QCanBusFrame \
   /opt/homebrew/Cellar/qt/6.6.0/lib/QtSerialBus.framework/Versions/A/Headers/QtSerialBus \
   /opt/homebrew/Cellar/qt/6.6.0/lib/QtSerialBus.framework/Versions/A/Headers/QtSerialBusDepends \
   /opt/homebrew/Cellar/qt/6.6.0/lib/QtSerialBus.framework/Versions/A/Headers/qcanbus.h \

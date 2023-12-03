@@ -2019,6 +2019,7 @@
  mdp:/opt/homebrew/Cellar/qt/6.6.0/lib/QtQml.framework/Versions/A/Headers/qtqmlglobal.h
  mdp:/opt/homebrew/Cellar/qt/6.6.0/lib/QtSerialBus.framework/Versions/A/Headers/QCanBus
  mdp:/opt/homebrew/Cellar/qt/6.6.0/lib/QtSerialBus.framework/Versions/A/Headers/QCanBusDevice
+ mdp:/opt/homebrew/Cellar/qt/6.6.0/lib/QtSerialBus.framework/Versions/A/Headers/QCanBusFrame
  mdp:/opt/homebrew/Cellar/qt/6.6.0/lib/QtSerialBus.framework/Versions/A/Headers/QtSerialBus
  mdp:/opt/homebrew/Cellar/qt/6.6.0/lib/QtSerialBus.framework/Versions/A/Headers/QtSerialBusDepends
  mdp:/opt/homebrew/Cellar/qt/6.6.0/lib/QtSerialBus.framework/Versions/A/Headers/qcanbus.h

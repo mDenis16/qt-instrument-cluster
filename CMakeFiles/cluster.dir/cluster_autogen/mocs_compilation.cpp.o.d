@@ -981,6 +981,7 @@ CMakeFiles/cluster.dir/cluster_autogen/mocs_compilation.cpp.o: \
   /opt/homebrew/lib/QtSerialBus.framework/Headers/qtserialbusversion.h \
   /opt/homebrew/lib/QtSerialBus.framework/Headers/QCanBus \
   /opt/homebrew/lib/QtSerialBus.framework/Headers/QCanBusDevice \
+  /opt/homebrew/lib/QtSerialBus.framework/Headers/QCanBusFrame \
   /opt/homebrew/lib/QtCore.framework/Headers/QList \
   /opt/homebrew/lib/QtQml.framework/Headers/qqml.h \
   /opt/homebrew/include/QtQml/qqmlprivate.h \

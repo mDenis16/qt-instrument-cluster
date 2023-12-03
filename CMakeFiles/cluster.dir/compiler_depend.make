@@ -967,6 +967,7 @@ CMakeFiles/cluster.dir/cluster_autogen/mocs_compilation.cpp.o: cluster_autogen/m
   /opt/homebrew/lib/QtQml.framework/Headers/qqml.h \
   /opt/homebrew/lib/QtSerialBus.framework/Headers/QCanBus \
   /opt/homebrew/lib/QtSerialBus.framework/Headers/QCanBusDevice \
+  /opt/homebrew/lib/QtSerialBus.framework/Headers/QCanBusFrame \
   /opt/homebrew/lib/QtSerialBus.framework/Headers/QtSerialBus \
   /opt/homebrew/lib/QtSerialBus.framework/Headers/qcanbus.h \
   /opt/homebrew/lib/QtSerialBus.framework/Headers/qcanbusdevice.h \
@@ -2991,6 +2992,7 @@ CMakeFiles/cluster.dir/src/Vehicle.cpp.o: src/Vehicle.cpp \
   /opt/homebrew/lib/QtQml.framework/Headers/qqml.h \
   /opt/homebrew/lib/QtSerialBus.framework/Headers/QCanBus \
   /opt/homebrew/lib/QtSerialBus.framework/Headers/QCanBusDevice \
+  /opt/homebrew/lib/QtSerialBus.framework/Headers/QCanBusFrame \
   /opt/homebrew/lib/QtSerialBus.framework/Headers/QtSerialBus \
   /opt/homebrew/lib/QtSerialBus.framework/Headers/qcanbus.h \
   /opt/homebrew/lib/QtSerialBus.framework/Headers/qcanbusdevice.h \
@@ -4012,6 +4014,7 @@ CMakeFiles/cluster.dir/src/main.cpp.o: src/main.cpp \
   /opt/homebrew/lib/QtQml.framework/Headers/qqmlcontext.h \
   /opt/homebrew/lib/QtSerialBus.framework/Headers/QCanBus \
   /opt/homebrew/lib/QtSerialBus.framework/Headers/QCanBusDevice \
+  /opt/homebrew/lib/QtSerialBus.framework/Headers/QCanBusFrame \
   /opt/homebrew/lib/QtSerialBus.framework/Headers/QtSerialBus \
   /opt/homebrew/lib/QtSerialBus.framework/Headers/qcanbus.h \
   /opt/homebrew/lib/QtSerialBus.framework/Headers/qcanbusdevice.h \
@@ -4112,6 +4115,8 @@ src/ResourceManager.cpp:
 /opt/homebrew/lib/QtSerialBus.framework/Headers/qcanbusdeviceinfo.h:
 
 /opt/homebrew/lib/QtSerialBus.framework/Headers/QtSerialBus:
+
+/opt/homebrew/lib/QtSerialBus.framework/Headers/QCanBusFrame:
 
 /opt/homebrew/lib/QtSerialBus.framework/Headers/QCanBusDevice:
 
